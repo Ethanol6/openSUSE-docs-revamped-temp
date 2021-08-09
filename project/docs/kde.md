@@ -88,4 +88,17 @@ Now the custom keyboard shortcut runs the command system wide, no matter what ap
 
 #### Using panes, bars, widgets & docks
 
+The Plasma desktop is made up of two main components: **Widgets** and **Containments**.
+Widgets are small applications accessible through the desktop.
+Containments are, effectively, containers for the Widgets.
+
+On openSUSE Tumbleweed the default KDE Plasma desktop has the Panel along the bottom edge of the desktop. A design similar to defaults found on Windows or MacOS. The Panel is a Containment where various Widgets can be added, removed, and arranged to your liking. The default collection of Widgets on the Panel are (from Left to Right):
+
+1. **Application Launcher:** A menu for finding installed Applications and launching them. Also has system functions like *shutdown*, *restart*, *logout*, etc.
+2. Quick launch icons for common Applications
+3. **Task Manager:** Displays currently running programs and allows general Application tasks with *right click*.
+4. **System Tray**
+5. Digital Clock
+6. **Panel Toolbox**
+
 #### Learning more
