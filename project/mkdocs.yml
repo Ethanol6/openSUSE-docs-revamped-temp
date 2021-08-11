@@ -18,7 +18,9 @@ plugins:
         
 theme:
     name: material
-    font: false
+    font:
+        code: Fira Code
+        text: Noto Sans TC
     custom_dir: overrides
     palette:
         scheme: preference
@@ -92,6 +94,7 @@ nav:
         - Power management: ""
         - Pairing, syncing, sharing:
             - Bluetooth: bluetooth.md
+            - KDE Connect: kdeconnect.md
         - Advanced fine-tunings:
             - Transparent compression (zstd): zstd.md
     - Giving back to the community:
