@@ -4,16 +4,16 @@
 
 Package Repositories are locations where software, updates, bugfixes, security patches, etc. are accessed. A Repository can be located on local media such as a DVD, a Local Area Network, or online.
 
-These are the official openSUSE repositories. Well tested packages, security and bugfixes are provided. Online ones are convenient to use if you have good bandwidth. For information on how to add them, see **[SDB:Add package repositories](https://en.opensuse.org/SDB:Add_package_repositories)**.
+These are the official openSUSE repositories. Well tested packages, security and bugfixes are provided. Online repositories are convenient to use if you have good bandwidth. For information on how to add them, see __[SDB:Add package repositories](https://en.opensuse.org/SDB:Add_package_repositories)__.
 
 ### On-disk official repositories
 The first repositories that you may have seen are the DVDs. You can have several sorts of such repositories, with different contents. None of them, including the huge two layer DVD of the boxed version, includes all the openSUSE packages, so you will also need the online repositories if possible.
 
-- The **[downloadable DVD](https://en.opensuse.org/SDB:Download_help)** is one single layer 4.7 GB DVD. It hosts the most important packages, but this makes only a very small subset of the whole openSUSE.
-- The **[boxed DVD](https://en.opensuse.org/Buy_openSUSE)** consist of a double layer DVD and is available from your dealer for a fee that includes installation support. But even this double DVD doesn't hold all the openSUSE packages.
+- The __[downloadable DVD](https://en.opensuse.org/SDB:Download_help)__ is one single layer 4.7 GB DVD. It hosts the most important packages, but this makes only a very small subset of the whole openSUSE.
+- The __[boxed DVD](https://en.opensuse.org/Buy_openSUSE)__ consist of a double layer DVD and is available from your dealer for a fee that includes installation support. But even this double DVD doesn't hold all the openSUSE packages.
 
 ### Using online repositories
-- For **[YaST](https://en.opensuse.org/Portal:YaST)**, there is no difference between '''online (internet)''' and on disk (DVD or hard drive) repositories, all the packages are seen as if they are on a very big drive.
+- For __[YaST](https://en.opensuse.org/Portal:YaST)__, there is no difference between '''online (internet)''' and on disk (DVD or hard drive) repositories, all the packages are seen as if they are on a very big drive.
 - If you keep your computer always connected via a broadband connection, you can remove the "repository" OSS DVD if you install the standard online repository below.
 - If you have enough disk space, you can also download a repository snapshot, but be advised that this can take up to 20 GB or even more.
 
