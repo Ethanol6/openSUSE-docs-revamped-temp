@@ -3,7 +3,8 @@ repo_url: https://github.com/openSUSE/openSUSE-docs-revamped-temp
 edit_uri: ""
 
 plugins:
-    - search
+    - search:
+        prebuild_index: true
     - git-revision-date
     - mkdocs-versioning:
         version: 0.3.1
@@ -15,7 +16,6 @@ plugins:
         #comment out the next two options to make every page have its own PDF
         combined: true
         combined_output_path: docs.pdf
-        
 theme:
     name: material
     font:
@@ -91,7 +91,7 @@ nav:
             - Getting started: install_proprietary.md
             - Dual GPUs ("Optimus"): hybrid_graphics.md
         - Setting up a containerized environment: install_podman.md
-        - Power management: ""
+        - Power management: power.md
         - Pairing, syncing, sharing:
             - Bluetooth: bluetooth.md
             - KDE Connect: kdeconnect.md
